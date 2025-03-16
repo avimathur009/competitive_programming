@@ -1,9 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-bool checkIfPossible(int k, int n, int h, vector<int> &attackTime){
-    int damage = 0;
-    for(int i=0;i<n-1;i++){
+bool checkIfPossible(long long k, long long n, long long h, vector<long long> &attackTime){
+    long long damage = 0;
+    for(long long i=0;i<n-1;i++){
         if(attackTime[i]+k>attackTime[i+1]){
             damage += attackTime[i+1]-attackTime[i];
         }
@@ -22,15 +22,15 @@ int main(){
     int t;
     cin>>t;
     while(t--){
-        int n, h;
+        long long n, h;
         cin>>n>>h;
-        vector<int> attackTime(n,0);
-        for(int i=0;i<n;i++){
+        vector<long long> attackTime(n,0);
+        for(long long i=0;i<n;i++){
             cin>>attackTime[i];
         }
-        int low = 0, high = h;
+        long long low = 0, high = h;
         while(low<=high){
-            int possK = (high+low)/2;
+            long long possK = (high+low)/2;
             bool isPossible = checkIfPossible(possK,n,h,attackTime);
             if(isPossible){
                 high = possK-1;
