@@ -1,6 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+typedef unsigned int uint;
+typedef long long ll;
+
 void solve() {
     int n, k;
     cin >> n >> k;
