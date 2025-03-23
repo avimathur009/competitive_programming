@@ -1,0 +1,18 @@
+GOOD THINGS:
+- Identified that there we need to know only understand whether k=0 or k!=0
+- Identified the 2 base cases where: 
+    - s.size() == 1  -> NO
+    - s[0] < s[n-1]  -> YES
+- Identified that we need only 1 swap to make it "Universal"
+
+BAD THINGS:
+- Got confused how to go from logic that we only need 1 swap -> to implement to confused
+- Didn't make diverse test cases
+- got confused that whatever test cases I am making are diverse or not
+- In that confusion -> ended up not making any test cases at all
+
+SOLUTION:
+- No matter how confused you feel in MAKING TEST CASES, *TRY* your BEST!!!!!
+- This was you learn along the way that you are making correct TCs or not
+    - Advantage1 : You might end up making good TCs and find the SOLUTION
+    - Advantage2 : By any chance not able to find solution, learning for next contest
