@@ -22,6 +22,9 @@
         "generator": "cpp",
         "initializer_list": "cpp",
         "text_encoding": "cpp",
-        "valarray": "cpp"
+        "valarray": "cpp",
+        "chrono": "cpp",
+        "typeindex": "cpp",
+        "typeinfo": "cpp"
     }
 }
