@@ -1,8 +1,7 @@
-//VARIATION #1 of:
+//variation #1 of this question on LC:
 //https://leetcode.com/problems/longest-repeating-character-replacement/description/
-
-//Here instead of any repeating character -> when only repeating 'B' is asked
-//SAME goes for -> when only repeating 'A' is asked 
+//Here instead of any repeating character -> only repeating 'B' length
+//SAME goes for -> when only repeating 'A' is asked length
 
 #include<bits/stdc++.h>
 using namespace std;
