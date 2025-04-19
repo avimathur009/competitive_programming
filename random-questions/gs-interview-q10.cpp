@@ -1,3 +1,11 @@
+//QUESTION ->
+//Imagine a 8x8 chess board, you are given input is two strings, 
+//both correspond to a position on the chess board. String 1 is the
+//position of the bishop, which can only move diagonally. String 2 is the goal end position.
+//You need to output the number of moves it takes to get to string 2.
+//If string 2 is not reachable return -1, if string 1 == string 2 return 0, 
+//else return how many moves it takes
+
 #include<bits/stdc++.h>
 using namespace std;
 
